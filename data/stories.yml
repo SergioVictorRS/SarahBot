@@ -1,0 +1,123 @@
+version: "2.0"
+
+stories:
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: deny
+  - action: utter_goodbye
+
+- story: story001
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: get_to_know
+  - action: utter_asked_questions
+  - intent: get_to_know
+  - action: utter_got_to_know 
+
+- story: story002
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: what_name
+  - action: utter_got_to_know
+  - intent: get_to_know
+  - action: utter_got_to_know  
+
+- story: story003
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: introduce
+  - action: utter_introduced
+  - intent: get_to_know
+  - action: utter_asked_questions  
+
+
+- story: story004
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: introduce
+  - action: utter_introduced
+  - intent: explain
+  - action: utter_explained
+  - intent: ask_difficult_question
+  - action: utter_asked_difficult_question
+  - intent: ask_out
+  - action: utter_asked_out
+
+
+- story: story005
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: introduce
+  - action: utter_introduced
+  - intent: affirm
+  - action: utter_affirmed
+
+- story: story006
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: introduce
+  - action: utter_introduced
+  - intent: deny
+  - action: utter_denied
+
+- story: story007
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: introduce
+  - action: utter_introduced
+  - intent: deny
+  - action: utter_denied
+
+- story: story008
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: be_polite
+  - action: utter_was_polite
+  - intent: ask_out
+  - action: utter_asked_out
+
+
+- story: story009
+  steps:
+  - intent: affirm
+  - action: utter_affirmed
+  - intent: deny
+  - action: utter_denied
+
+
+- story: story010
+  steps:
+  - intent: ask_difficult_question
+  - action: utter_asked_difficult_question
+  - intent: ask_out
+  - action: utter_asked_out
+
+
+- story: story011
+  steps:
+  - intent: say_i_like
+  - action: utter_said_i_like
+  - intent: say_i_dont_like
+  - action: utter_said_i_dont_like

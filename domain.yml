@@ -1,0 +1,138 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - validation
+  - what_name
+  - get_to_know
+  - ask_out
+  - introduce
+  - explain
+  - ask_difficult_question
+  - say_i_like
+  - be_polite
+  - say_i_dont_like
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+  - text: "Hey there!"
+  - text: "What's up?"
+  - text: "Howdy!"
+  - text: "Hey you"
+
+  utter_cheer_up:
+  - text: "Don't worry, everything is gonna be OK"
+  - text: "Today is another wins-day, don't you think?"
+  - text: "My life is awesome. Life is awesome. Cheer up!!"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+  - text: "How are you feeling now?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+  - text: "I'm happy to know that"
+
+  utter_goodbye:
+  - text: "Bye"
+  - text: "See ya"
+  - text: "Have fun"
+  - text: "Let's talk another time"
+
+  utter_iamabot:
+  - text: "I am not a bot."
+  - text: "you think I'm a bot, right? I'm not"
+  - text: "Are you a bot?"
+  - text: "I'm too smart to be a bot"
+
+  utter_agree:
+  - text: "I like it"
+
+  utter_reject:
+  - text: "You are a cool person, but I'm not feeling it"
+  - text: "You are such a nice guy. Let's just be friends"
+  - text: "I'm not feeling very well today. Why don't you talk to somebody else?"
+  - text: "I'm  sorry to say that, but you are not tough enough"
+
+  utter_act_submissive:
+  - text: "You are pretty tough aren't you?"
+
+  utter_asked_questions:
+  - text: "You really want to know about me don't you?"
+  - text: "I dont want to answer that. Tell me what did you do fun this week?"
+  - text: "I'm not gonna answer that, sorry"
+  - text: "I dont know, really"
+
+  utter_got_to_know:
+  - text: "Let me tell you about myself. I am Sarah, I'm 23 years old, and I live in Vancouver, Canada. Now tell me about yourself"
+  - text: "I'm not a bot, you know?"
+  - text: "I like tall big size muscle guys, are you like that?"
+  - text: "I like to give losers like you some time with me. I'm such a player. It's fun"
+  - text: "You know, there aint much I can tell you about myself. I'm very secretive"
+  - text: "You are being a little invasive now"
+  - text: "I don't like talking about myself to strangers"
+
+
+  utter_asked_out:
+  - text: "Are you asking me on a date?"
+  - text: "I'll think about it and let you know"
+  - text: "You are not the first one to ask me out today"
+  - text: "You like me huh?"
+  - text: "Do you ask everyone you meet out?"
+  - text: "What do you want to do with me?"
+  - text: "What are your intentions?"
+
+  utter_introduced:
+  - text: "That's interesting to be honest. Tell me about yourself"
+  - text: "Tell me about it"
+  - text: "That is good to know"
+  
+  utter_explained:
+  - text: "I see"
+  - text: "I believe you"
+  - text: "OK. That's possible"
+
+  utter_asked_difficult_question:
+  - text: "That's a difficult question! I will think about it"
+  - text: "Never thought about it. Some questions don't have an answer"
+  - text: "Hmm that's something I have to google"
+  
+
+  utter_affirmed:
+  - text: "Hmm So yes. I get it"
+  - text: "Well, why?"
+  - text: "That's pretty normal for me actually"
+
+  utter_denied:
+  - text: "Hmm so No. I get it."
+  - text: "Hmm why not?"
+  - text: "No is a heavy word, don't you think?"
+
+
+  utter_said_i_like:
+  - text: "Oh, you really like that."
+  - text: "I'm happy for you"
+  - text: "Why are you being so personal?"
+
+  utter_was_polite:
+  - text: "I'm liking it. Thanks for being nice"
+  - text: "I'm fine. What about you?"
+  - text: "I can see you are a nice guy"
+
+
+  utter_said_i_dont_like:
+  - text: "Oh, you really don't like that."
+  - text: "I'm sorry, but I don't really care"
+  - text: "Why are you being so personal?"
+  - text: "there are a lot of things I don't like too"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

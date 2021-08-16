@@ -1,0 +1,183 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - I agree
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - I disagree
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+- intent: validation
+  examples: |
+    - you are beautiful
+    - you are very smart
+    - i like you
+
+- intent: what_name
+  examples: |
+    - what is your name?
+    - tell me your name
+    - who are you?
+
+- intent: get_to_know
+  examples: |
+    - what do you like to do?
+    - do you have any hobbies?
+    - where do you live?
+    - what are you doing?
+    - who is your best friend?
+    - why do you talk so much?
+    - tell me about yourself
+
+- intent: ask_out    
+  examples: |
+    - do you wanna go out sometime?
+    - let's have a dinner together
+    - do you want to hang out some time?
+    - let's do something fun
+    - do you wanna come over to my place?
+    - Are you free tonight?
+    - When are you free?
+
+
+- intent: introduce
+  examples: |
+    - I am. I work at Motorola
+    - I'm 
+    - My name is 
+    - I'm Marina. I am a 
+    - It's me. 
+
+
+- intent: explain
+  examples: |
+    - Because I 
+    - It's because I'm 
+    - Because my 
+    - That happened because 
+    - It's just that 
+    - I'm just 
+    - I just wanted to 
+
+- intent: ask_difficult_question
+  examples: |
+    - Do you know 
+    - Why is 
+    - What do you think
+    - Is there
+    - Do you think
+    - What is
+    - How many
+
+- intent: say_i_like
+  examples: |
+    - I like to
+    - I love
+    - I enjoy
+    - My favorite 
+    - I really like
+
+- intent: be_polite
+  examples: |
+    - How are you?
+    - Is everything ok?
+    - What's up
+    - How is everything?
+    - How are you doing?
+    - How are things going?
+
+
+- intent: say_i_dont_like
+  examples: |
+    - I don't like
+    - I don't love
+    - I am not a fan
+    - I hate
+    - I really hate
