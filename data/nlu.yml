@@ -115,6 +115,7 @@ nlu:
     - who is your best friend?
     - why do you talk so much?
     - tell me about yourself
+    - do you like
 
 - intent: ask_out    
   examples: |
@@ -181,3 +182,110 @@ nlu:
     - I am not a fan
     - I hate
     - I really hate
+
+- intent: thank
+  examples: |
+    - thanks
+    - thank you
+    - thank you very much
+    - I appreciate that
+    - thank god
+
+- intent: ask_boyfriend
+  examples: |
+    - do you have a boyfriend
+    - are you single
+    - are you married
+    - are you alone
+    - do you want to be my girlfriend
+
+
+- intent: i_want
+  examples: |
+    - I want to talk
+    - I wanna go out
+    - I wish I could
+    - I want to know
+
+
+- intent: i_dont_want
+  examples: |
+    - I don't want to talk
+    - I don't wanna go out
+    - I wish I couldn't
+    - I don't want to know
+
+
+- intent: laugh
+  examples: |
+    - hahahaha
+    - OMG
+    - WTF
+    - LOL
+    - That's so funny
+    - ashuashausuh
+
+- intent: tell_song
+  examples: |
+    - recommend a song
+    - tell me a music
+    - give me a song
+    - what is a good song
+    - what song do you like
+    - i'm looking for a song
+
+- intent: tell_movie
+  examples: |
+    - recommend a movie
+    - tell me a film
+    - give me a movie
+    - what is a good film
+    - what movie do you like
+    - i'm looking for a movie
+
+- intent: tell_activity
+  examples: |
+    - recommend an activity
+    - tell me an activity
+    - give me an activity
+    - what is a good activity
+    - what activity do you like
+
+- intent: tell_book
+  examples: |
+    - recommend a book
+    - tell me a book
+    - give me the name of a book
+    - what is a good book
+    - what book do you like
+    - i'm looking for a book
+
+- intent: short_question
+  examples: |
+    - what?
+    - who?
+    - why?
+    - why not?
+    - when?
+    - how much?
+    - how?
+    - which?
+
+- intent: ask_sure
+  examples: |
+    - are you sure?
+    - really?
+    - for real?
+    - is it?
+    - do you?
+    - oh really?
+    - is it true?
+    - is it so?
+
+- intent: ask_friends
+  examples: |
+    - let's be friends
+    - are we friends?
+    - do you want to be my friend?
+    - do you have any friends?
+    - you are my friend

@@ -16,3 +16,23 @@ rules:
   steps:
   - intent: validation
   - action: utter_reject
+
+- rule: nice songs
+  steps:
+  - intent: tell_song
+  - action: utter_told_song
+
+- rule: nice movies
+  steps:
+  - intent: tell_movie
+  - action: utter_told_movie
+
+- rule: nice activities
+  steps:
+  - intent: tell_activity
+  - action: utter_told_activity
+
+- rule: nice books
+  steps:
+  - intent: tell_book
+  - action: utter_told_book

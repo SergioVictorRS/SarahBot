@@ -121,3 +121,29 @@ stories:
   - action: utter_said_i_like
   - intent: say_i_dont_like
   - action: utter_said_i_dont_like
+  - intent: thank
+  - action: utter_thanked
+
+- story: story012
+  steps:
+  - intent: ask_boyfriend
+  - action: utter_asked_boyfriend
+  - intent: thank
+  - action: utter_thanked
+  - intent: ask_sure
+  - action: utter_asked_sure
+  - intent: ask_friends
+  - action: utter_asked_friends
+
+
+- story: story013
+  steps:
+  - intent: i_want
+  - action: utter_i_wanted
+  - intent: i_dont_want
+  - action: utter_i_didnt_want
+  - intent: laugh
+  - action: utter_laughed
+  - intent: short_question
+  - action: utter_short_questioned
+
